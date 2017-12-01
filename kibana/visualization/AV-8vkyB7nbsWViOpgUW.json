@@ -1,0 +1,10 @@
+{
+  "visState": "{\"title\":\"Away scored vs missed goals\",\"type\":\"histogram\",\"params\":{\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":200},\"title\":{\"text\":\"Away Teams\"}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":75,\"filter\":true,\"truncate\":100},\"title\":{\"text\":\"Away Goals\"}}],\"seriesParams\":[{\"show\":true,\"mode\":\"normal\",\"type\":\"histogram\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"data\":{\"id\":\"3\",\"label\":\"Scored goals\"},\"valueAxis\":\"ValueAxis-1\"},{\"show\":true,\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"Missed goals\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"type\":\"horizontal_bar\"},\"aggs\":[{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"AwayTeam.keyword\",\"size\":500,\"order\":\"desc\",\"orderBy\":\"_term\",\"customLabel\":\"Away Teams\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"FTAG\",\"customLabel\":\"Scored goals\"}},{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"FTHG\",\"customLabel\":\"Missed goals\"}}],\"listeners\":{}}", 
+  "description": "", 
+  "title": "Away scored vs missed goals", 
+  "uiStateJSON": "{\"vis\":{\"colors\":{\"Scored goals\":\"#629E51\",\"Missed goals\":\"#BF1B00\"}}}", 
+  "version": 1, 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"index\":\"AV-8pHcv7nbsWViOpgUM\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+  }
+}

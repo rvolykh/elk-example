@@ -1,0 +1,10 @@
+{
+  "visState": "{\"title\":\"Home Date goals\",\"type\":\"heatmap\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"enableHover\":false,\"legendPosition\":\"right\",\"times\":[],\"colorsNumber\":4,\"colorSchema\":\"Greens\",\"setColorRange\":false,\"colorsRange\":[],\"invertColors\":false,\"percentageMode\":false,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":false,\"rotate\":0,\"color\":\"#555\"}}],\"type\":\"heatmap\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"FTHG\",\"customLabel\":\"Goals\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"HomeTeam.keyword\",\"size\":500,\"order\":\"desc\",\"orderBy\":\"_term\",\"customLabel\":\"Home Teams\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"size\":500,\"order\":\"desc\",\"orderBy\":\"_term\",\"customLabel\":\"Date\"}}],\"listeners\":{}}", 
+  "description": "", 
+  "title": "Home Date goals", 
+  "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 2\":\"rgb(247,252,245)\",\"2 - 4\":\"rgb(199,233,192)\",\"4 - 6\":\"rgb(116,196,118)\",\"6 - 7\":\"rgb(35,139,69)\"}}}", 
+  "version": 1, 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"index\":\"AV-8pHcv7nbsWViOpgUM\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+  }
+}

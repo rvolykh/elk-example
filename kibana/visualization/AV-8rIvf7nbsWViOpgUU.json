@@ -1,0 +1,10 @@
+{
+  "visState": "{\"title\":\"Teams\",\"type\":\"tagcloud\",\"params\":{\"scale\":\"linear\",\"orientation\":\"right angled\",\"minFontSize\":18,\"maxFontSize\":35,\"type\":\"tagcloud\",\"hideLabel\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"AwayTeam.keyword\",\"size\":500,\"order\":\"desc\",\"orderBy\":\"_term\",\"customLabel\":\"Teams\"}}],\"listeners\":{}}", 
+  "description": "", 
+  "title": "Teams", 
+  "uiStateJSON": "{\"spy\":{\"mode\":{\"name\":null,\"fill\":false}}}", 
+  "version": 1, 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"index\":\"AV-8pHcv7nbsWViOpgUM\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+  }
+}

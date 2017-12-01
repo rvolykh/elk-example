@@ -1,0 +1,10 @@
+{
+  "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{\"customLabel\":\"Home Goals\",\"field\":\"FTHG\"},\"schema\":\"metric\",\"type\":\"max\"},{\"enabled\":true,\"id\":\"2\",\"params\":{\"customLabel\":\"Date\",\"field\":\"@timestamp\",\"order\":\"desc\",\"orderBy\":\"_term\",\"size\":5000},\"schema\":\"bucket\",\"type\":\"terms\"},{\"enabled\":true,\"id\":\"3\",\"params\":{\"customLabel\":\"Away Goals\",\"field\":\"FTAG\"},\"schema\":\"metric\",\"type\":\"max\"},{\"enabled\":true,\"id\":\"4\",\"params\":{\"customLabel\":\"Home Team\",\"field\":\"HomeTeam.keyword\",\"order\":\"desc\",\"orderBy\":\"_term\",\"size\":5000},\"schema\":\"bucket\",\"type\":\"terms\"},{\"enabled\":true,\"id\":\"5\",\"params\":{\"customLabel\":\"Away Team\",\"field\":\"AwayTeam.keyword\",\"order\":\"desc\",\"orderBy\":\"_term\",\"size\":5000},\"schema\":\"bucket\",\"type\":\"terms\"}],\"listeners\":{},\"params\":{\"perPage\":10,\"showMeticsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\",\"type\":\"table\"},\"title\":\"Football calendar\",\"type\":\"table\"}", 
+  "description": "", 
+  "title": "Football calendar", 
+  "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}", 
+  "version": 1, 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"index\":\"AV-8pHcv7nbsWViOpgUM\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+  }
+}

@@ -1,0 +1,1 @@
+[{"source":"/home/roman/workspace/elk-example/samples/EPL2016.csv","offset":99990,"FileStateOS":{"inode":100748699,"device":64770},"timestamp":"2017-11-15T23:54:47.175993677+02:00","ttl":-1},{"source":"/home/roman/workspace/elk-example/samples/EPL2017.csv","offset":29189,"FileStateOS":{"inode":101488159,"device":64770},"timestamp":"2017-11-15T23:54:47.175990933+02:00","ttl":-1}]
